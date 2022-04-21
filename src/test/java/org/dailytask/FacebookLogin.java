@@ -17,6 +17,7 @@ public class FacebookLogin {
 		txtusername.sendKeys("krisskrishna");	
 		WebElement txtpassword = driver.findElement(By.id("pass"));
 		txtpassword.sendKeys("tripleK");
+		
 		WebElement btnlogin = driver.findElement(By.id("loginbutton"));
 		btnlogin.click();
 		
